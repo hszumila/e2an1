@@ -1,0 +1,18 @@
+#ifndef __CONSTANTS_H__
+#define __CONSTANTS_H__
+
+
+const double Me      = .000511;         // Electron     mass in GeV
+const double Mp      = 0.93827;         // Proton       mass in GeV
+const double Mn      = 0.93957;         // Neutron      mass in GeV
+const double Mpip    = 0.13957;         // Charged pion mass in GeV
+const double He3_be  = 0.00770;         // 3He binding energy in GeV
+const double M_tar   = 2*Mp+Mn-He3_be;  // 3Helium  mass in GeV (target)
+
+const double c_cm_ns = 29.9792458;
+
+const double ns2s    = 1.0E-09 ;
+const double corr_pp[3] = {0.731444,0.693001,0.530068};//bg subtraction for e,e'pp
+const double corr_pppipi[2] = {0.707933,0.564524};//bg subtraction for e,e'pppipi
+
+#endif
